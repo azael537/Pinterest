@@ -1,0 +1,204 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.dad-container {
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+.header {
+    background-color: black;
+}
+
+.nav-container {
+    background: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    height: 80px;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+.logo img {
+    width: 40px;
+}
+
+.button {
+    margin-left: 10px;
+}
+
+.button button {
+    border-radius: 40px;
+    width: 80px;
+    height: 50px;
+}
+
+.button button:hover{
+    background: rgb(236, 231, 231);
+}
+
+.search-bar {
+    margin-left: px;
+    width: 70%;
+    border-radius: 40px;
+}
+
+.search-bar input {
+    border-radius: 40px;
+    height: 50px;
+    background: #fff;
+    background-image: url(https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+
+.search-bar input:hover {
+    background: rgb(224, 220, 220);
+}
+
+
+.icon {
+    margin-left: 8px;
+}
+
+.icon button {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.icon button:hover {
+    background: rgb(236, 231, 231);
+}
+
+.dropleft {
+    margin: 0 15px 0 15px;
+}
+
+.dropleft:hover {
+    background: rgb(236, 231, 231);
+}
+
+.dropdown-menu {
+    border-radius: 40px;
+}
+
+.dropdown-menu p {
+    margin: 0 0 0 15px;
+    font-size: 15px;
+}
+
+.cuentas {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cuentas img {
+    padding: 5px 0 5px 15px;
+    border-radius: px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px
+}
+
+img{
+    width: 100%;
+    opacity: 1.0;
+}
+
+.container-principal{
+    display: flex;
+    /*margin: 10px;*/
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.row-container{
+    flex: 20%;
+    padding: 10px;
+}
+
+
+.container-image {
+    position: relative;
+    width: 100%;
+    font-weight: bold;
+}
+
+.container-image img {
+    margin-top: 10px;
+    border-radius: 15px;
+    fill-opacity: 1s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.container-image:hover img{
+    opacity: 0.3;
+}
+
+.container-image:hover .conteiner-hover-button {
+    opacity: 1;
+}
+.conteiner-hover-button {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+
+}
+
+.plus {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.question {
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+@media (max-width:600px){
+    .row-container{
+        flex: 50%
+    }
+}
+@media (max-width:600px){
+    .row-container{
+        flex: 100%
+    }
+}
+
